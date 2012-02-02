@@ -3,7 +3,7 @@ use strict;
 use Exporter qw(import);
 
 BEGIN {
-  our $VERSION = '0.001';
+  our $VERSION = '0.002';
   use XSLoader;
   XSLoader::load('Unicode::ICU::Collator' => $VERSION);
 }
@@ -70,7 +70,7 @@ __END__
 
 =head1 NAME
 
-Uncode::ICU::Collator - wrapper around ICU collation services
+Unicode::ICU::Collator - wrapper around ICU collation services
 
 =head1 SYNOPSIS
 
